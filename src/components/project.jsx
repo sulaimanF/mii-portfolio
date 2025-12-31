@@ -37,14 +37,14 @@ const projects = [
     title: "Company Profile Honda Eiyu",
     description:
       "Developed a company profile website for PT Eiyu Damai Sejahtera to present corporate information and services professionally.",
-    tech: ["WordPress", "Elementor, Divi"],
+    tech: ["WordPress", "Elementor", "Divi"],
     live_link: "https://honda-eiyu.com",
   },
   {
     title: "Company Profile Hyundai Mandiri",
     description:
       "Developed a company profile website for PT Akbar Mandiri Sejahtera to present corporate information and services professionally.",
-    tech: ["WordPress", "Elementor"],
+    tech: ["WordPress", "Elementor", "Divi"],
     live_link: "https://hyundaimandiri.com",
   },
   {
@@ -52,14 +52,14 @@ const projects = [
     description:
       "A web-based application for managing consumer databases with authentication, dashboard, and Excel upload functionality.",
     tech: ["PHP", "Codeigniter", "Bootstrap", "Javascript", "Jquery", "MySQL"],
-    link: "https://github.com/PraveenS-dev/mern-secure-crud-app",
+    // link: "https://github.com/PraveenS-dev/mern-secure-crud-app",
   },
   {
     title: "Lapkin SP",
     description:
       "A web-based toll road report management system that enables real-time monitoring of approval status, verification status, and report ownership, featuring authentication, dashboard, and full CRUD operations.",
     tech: ["PHP", "Codeigniter", "Bootstrap", "Javascript", "Jquery", "MySQL"],
-    link: "https://github.com/PraveenS-dev/mern-secure-crud-app",
+    // link: "https://github.com/PraveenS-dev/mern-secure-crud-app",
   },
 ];
 

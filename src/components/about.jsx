@@ -4,7 +4,13 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center bg-transparent text-gray-900 relative"
+      className="min-h-screen
+    bg-transparent
+    text-gray-900
+    relative
+    pt-24 pb-24
+    md:pt-0 md:pb-0
+    flex md:items-center md:justify-center"
     >
       <div className="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
 

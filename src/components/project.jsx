@@ -8,7 +8,7 @@ const projects = [
     description:
       "A web-based e-Procurement application designed to digitalize the procurement process of goods and services, covering vendor management, approval workflows, evaluation, and integrated reporting.",
     tech: ["PHP", "Codeigniter", "Bootstrap", "Javascript", "Jquery", "MySQL"],
-    link: "#",
+    // link: "",
     live_link: "https://e-proc.kalbe.co.id/PurcApp",
   },
   {

@@ -8,13 +8,13 @@ export default function Hero() {
       id="hero"
       className="min-h-screen flex items-center bg-transparent text-gray-900 relative"
     >
-      <div className="max-w-4xl px-6 pl-50 relative z-10 text-left">
+      <div className="max-w-4xl px-6 md:pl-24 lg:pl-40 relative z-10 text-left">
         {/* Animated Intro */}
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="text-5xl sm:text-6xl font-bold mb-4"
+          className="text-3xl sm:text-5xl lg:text-6xl font-bold mb-4"
         >
           Hi, I’m{" "}
           <motion.span
@@ -30,7 +30,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="text-xl sm:text-2xl text-gray-600 dark:text-gray-700 mb-8 h-10"
+          className="text-lg sm:text-xl lg:text-2xl text-gray-600 mb-8 min-h-[2.5rem]"
         >
           <ReactTyped
             strings={[
